@@ -1,0 +1,25 @@
+.alert-balance {
+  height: 60px;
+  line-height: 1.5;
+  text-align: right;
+  font-weight: bold;
+}
+
+.card {
+  width: 100%;
+  margin: 10px auto;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.4s;
+  border-color: black;
+}
+.card-img {
+  width: 100%;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
