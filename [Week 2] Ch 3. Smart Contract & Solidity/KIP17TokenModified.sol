@@ -1404,8 +1404,7 @@ contract KIP17Mintable is KIP17, MinterRole {
 contract KIP17Token is
     KIP17Full,
     KIP17Mintable,
-    KIP17MetadataMintable,
-    KIP17Burnable
+    KIP17MetadataMintable
 {
     constructor(string memory name, string memory symbol)
         public
